@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+      .div14{
+          background-color: black;
+          color: white;
+          border-radius: 8px;
+      }
+      .div1
+      {
+          background-color: gainsboro;
+         
+      }
+      .div12
+      {
+          background-color: gainsboro;
+          border:solid black 1px;
+      }
+      .div2
+      {
+          border:black solid 1px;
+      }
+      .div21
+      {
+         background-color: white;
+         color:black;
+      }
+     .st{
+         background-image:url("images.png") ;
+      }
+  </style>
+    </head>
+    <body><b>
+       <div class="jumbotron div1">
+  <div class="container-fluid ">
+    <div class="row">
+  <div class="col-sm-3"><br>Already Registered?
+  </div>
+         <div class="col-sm-4">
+             <form>
+                 Email ID <br><input class="div12" type="email" name="mail" required/>
+             </form>
+  </div>
+         <div class="col-sm-3">
+             <form>
+             Password<br>
+             <input class="div12" type="password" name="pass" required>
+             </form>  
+  </div>
+        <div class="col-sm-2"><form><br>
+                        <input class="div14" type="submit" value="  GO  "> 
+            </form>
+  </div>
+    </div>
+  </div>
+</div>
+        <div class="container-fluid ">
+    <div class="row">
+  <div class="col-sm-5">
+                        <hr class="div2">
+                        </div>
+         <div class="col-sm-2">
+             <center>  <h5><span class="label label-default div21">OR</span></h5></center>
+  </div>
+         <div class="col-sm-5">
+                        <hr class="div2">
+  </div>
+ 
+    </div>
+        </div>
+        <div class="container-fluid ">
+    <div class="row">
+  <div class="col-sm-10">Register As*
+      <br>
+      <select class="div12">
+          <option value="" disabled selected>select member type  </option>
+          <option value="membership">Membership</option>
+          <option value="non-membership">Non-membership</option>
+      </select>
+      <form><br>
+          Email ID*<br>
+          <input class="div12" type="email" name="mail" placeholder="****@****.com" required>     
+      </form>
+  
+  </div>
+         <div class="col-sm-2">
+            
+  </div>
+    </div>
+    </div>
+        <br>
+        <div class="container-fluid ">
+    <div class="row">
+         <div class="col-sm-4">
+             <form>
+             Password<br>
+             <input class="div12" type="password" name="pwd" required>
+             </form> </div>
+         <div class="col-sm-3">
+              <form>
+             Confirm Password<br>
+             <input class="div12" type="password" name="pwd" required>    
+             
+             </form> 
+  </div>
+         <div class="col-sm-3">
+             
+  </div>
+         <div class="col-sm-2">
+                      
+  </div>
+    </div>
+        </div>
+              <div class="container-fluid ">
+    <div class="row">
+         <div class="col-sm-4">
+             <form>
+                 <br>
+             Full Name*<br>
+             <input class="div12" type="text" name="fn" placeholder="First Name" required>
+             </form> </div>
+         <div class="col-sm-4">
+             <form><br><br>
+             <input class="div12" type="text" name="mn" placeholder="Middle Name" required>
+             </form> 
+  </div>
+         <div class="col-sm-3">
+             <br><br>
+              <input class="div12" type="text" name="ln" placeholder="Last Name" required>   
+  </div>
+         <div class="col-sm-1">
+                      
+  </div>
+    </div>
+        </div>
+              <div class="container-fluid ">
+    <div class="row">
+         <div class="col-sm-4">
+             <form>
+                 <br>
+                 Display Name<br>
+                   <input class="div12" type="text" name="dn" required>
+                   <br>
+                   <br>Captcha*<br>
+                   <textarea class="st" rows="2" cols="22"></textarea>
+             </form>
+         </div>
+         <div class="col-sm-4">
+               <form>
+                 <br>
+                 Mobile Number*<br>
+                 <input class="div12" type="number" name="mobno" required>
+                 <br>
+                 <br>
+                 Enter the code here<br>
+                  <input class="div12" type="text" name="code" required>
+             </form>
+  </div>
+         <div class="col-sm-3">
+             <br>   Gender*
+      <br>
+      <select class="div12">
+          <option value="" disabled selected></option>
+          <option value="male">Male</option>
+          <option value="female">Female</option>
+      </select>
+  </div>
+         <div class="col-sm-1">
+                      
+  </div>
+    </div>
+        </div>
+         <div class="container-fluid ">
+    <div class="row">
+          <div class="col-sm-10">
+                      
+  
+        <form>
+            <br><input type="checkbox" name="ck"> I have read, understood and accepted the rules for membership.
+        </form>
+              </div>
+    </div>    
+         </div> 
+    <div class="container-fluid ">
+    <div class="row">
+          <div class="col-sm-9">
+                     
+              </div>
+         <div class="col-sm-3">
+             <form>
+                 <input style="border-radius:8px" class="div12" type="button" value="   Cancel   ">
+                 <input class="div14" type="submit" value="   Register   ">
+             </form>
+              </div>
+    </div>    
+    </div> 
+        </b>
+    </body>
+</html>
